@@ -233,9 +233,7 @@ section {
 }
 
 .project-card:hover {
-    transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 20px 40px rgba(99, 102, 241, 0.2);
-    border-color: rgba(99, 102, 241, 0.3);
+    /* No hover effect */
 }
 
 .project-image {
@@ -252,7 +250,7 @@ section {
 }
 
 .project-card:hover .project-image img {
-    transform: scale(1.1);
+    /* No hover effect */
 }
 
 .project-info {
