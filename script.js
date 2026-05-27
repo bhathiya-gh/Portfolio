@@ -62,7 +62,7 @@ const observer = new IntersectionObserver((entries) => {
 
 // Observe all project cards and skill cards
 document.addEventListener('DOMContentLoaded', () => {
-    const cards = document.querySelectorAll('.project-card, .skill-card');
+    const cards = document.querySelectorAll('.project-card, .skill-card, .education-card, .experience-card');
     cards.forEach(card => {
         card.style.opacity = '0';
         card.style.transform = 'translateY(30px)';
